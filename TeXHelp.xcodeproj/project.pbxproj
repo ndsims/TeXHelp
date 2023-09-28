@@ -28,6 +28,7 @@
 		724E84072AB1050D0054F9E2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 724E84062AB1050D0054F9E2 /* Credits.rtf */; };
 		724E84092AB107D90054F9E2 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 724E84082AB107D90054F9E2 /* COPYING */; };
 		7264BDF82445D5B30055A372 /* TeXHelpDocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264BDF72445D5B30055A372 /* TeXHelpDocViewController.swift */; };
+		726C56EA2AC5F5F400B0E471 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 726C56E92AC5F5F400B0E471 /* README.md */; };
 		72725533243A344F008D13C2 /* TeXLivePackageDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72725532243A344F008D13C2 /* TeXLivePackageDatabase.swift */; };
 		72765592243A864200D88BB6 /* MyPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72765591243A864200D88BB6 /* MyPersistentContainer.swift */; };
 		72765598243BBAE400D88BB6 /* MyIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72765597243BBAE400D88BB6 /* MyIndexer.swift */; };
@@ -79,6 +80,7 @@
 		724E84062AB1050D0054F9E2 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		724E84082AB107D90054F9E2 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 		7264BDF72445D5B30055A372 /* TeXHelpDocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeXHelpDocViewController.swift; sourceTree = "<group>"; };
+		726C56E92AC5F5F400B0E471 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72725532243A344F008D13C2 /* TeXLivePackageDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeXLivePackageDatabase.swift; sourceTree = "<group>"; };
 		72765591243A864200D88BB6 /* MyPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPersistentContainer.swift; sourceTree = "<group>"; };
 		72765597243BBAE400D88BB6 /* MyIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIndexer.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		7242BB4324315496004044AC = {
 			isa = PBXGroup;
 			children = (
+				726C56E92AC5F5F400B0E471 /* README.md */,
 				723DA4732455E0D400888136 /* SearchQuerySyntax.rtf */,
 				72FFAE1C2AB2341A002ED9D8 /* DeleteSpotlight.playground */,
 				72111A7024533C1F003444F9 /* CheckRegEx.playground */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726C56EA2AC5F5F400B0E471 /* README.md in Resources */,
 				7242BB572431549A004044AC /* Assets.xcassets in Resources */,
 				724E84072AB1050D0054F9E2 /* Credits.rtf in Resources */,
 				724E84092AB107D90054F9E2 /* COPYING in Resources */,
