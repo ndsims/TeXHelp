@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G90" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HelpDoc" representedClassName="HelpDoc" syncable="YES" coreSpotlightDisplayNameExpression="title">
+        <attribute name="contentsSearched" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="fileURLString" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="packageLongDescription" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="packageName" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="packageShortDescription" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" spotlightIndexingEnabled="YES"/>
+        <relationship name="keywords" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Keyword" inverseName="helpDoc" inverseEntity="Keyword" spotlightIndexingEnabled="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="fileURLString"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Keyword" representedClassName="Keyword" syncable="YES">
+        <attribute name="bestHit" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="keyword" attributeType="String"/>
+        <attribute name="keywordData" optional="YES" attributeType="Binary"/>
+        <attribute name="parentKeywordCombo" attributeType="String"/>
+        <relationship name="helpDoc" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="HelpDoc" inverseName="keywords" inverseEntity="HelpDoc"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="parentKeywordCombo"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+</model>

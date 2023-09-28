@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720058472444ED5D00439AB0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720058462444ED5D00439AB0 /* MainStoryboard.storyboard */; };
+		72079C9C243CF89A006F03BC /* MyCoreSpotlightDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72079C9B243CF89A006F03BC /* MyCoreSpotlightDelegate.swift */; };
+		72111A682451E64B003444F9 /* Keyword+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72111A642451E64B003444F9 /* Keyword+CoreDataClass.swift */; };
+		72111A6A2451E64B003444F9 /* Keyword+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72111A652451E64B003444F9 /* Keyword+CoreDataProperties.swift */; };
+		72111A6C2451E64B003444F9 /* HelpDoc+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72111A662451E64B003444F9 /* HelpDoc+CoreDataClass.swift */; };
+		72111A6E2451E64B003444F9 /* HelpDoc+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72111A672451E64B003444F9 /* HelpDoc+CoreDataProperties.swift */; };
+		72111A732454B333003444F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72111A722454B333003444F9 /* SearchViewController.swift */; };
+		72111A762454EDC5003444F9 /* MainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72111A752454EDC5003444F9 /* MainSearchViewController.swift */; };
+		721666EE24498A1B00B3706D /* TeXHelpDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721666ED24498A1B00B3706D /* TeXHelpDocument.swift */; };
+		721666F024498AC400B3706D /* TeXHelpDocTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721666EF24498AC400B3706D /* TeXHelpDocTable.swift */; };
+		721666F224498BB900B3706D /* TeXHelpDocOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721666F124498BB900B3706D /* TeXHelpDocOutline.swift */; };
+		7242BB5024315496004044AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242BB4F24315496004044AC /* AppDelegate.swift */; };
+		7242BB572431549A004044AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7242BB562431549A004044AC /* Assets.xcassets */; };
+		724CF83C2433EF30007E4138 /* TeXHelpData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724CF83B2433EF30007E4138 /* TeXHelpData.swift */; };
+		724CF848243729A5007E4138 /* MyPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724CF847243729A5007E4138 /* MyPDF.swift */; };
+		724E83E62AA8E2A00054F9E2 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724E83E52AA8E2A00054F9E2 /* LandingPageViewController.swift */; };
+		724E83E82AAB50400054F9E2 /* MyStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724E83E72AAB50400054F9E2 /* MyStatus.swift */; };
+		724E83EA2AABDC2E0054F9E2 /* DeleteDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724E83E92AABDC2E0054F9E2 /* DeleteDatabaseViewController.swift */; };
+		724E84072AB1050D0054F9E2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 724E84062AB1050D0054F9E2 /* Credits.rtf */; };
+		724E84092AB107D90054F9E2 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 724E84082AB107D90054F9E2 /* COPYING */; };
+		7264BDF82445D5B30055A372 /* TeXHelpDocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264BDF72445D5B30055A372 /* TeXHelpDocViewController.swift */; };
+		72725533243A344F008D13C2 /* TeXLivePackageDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72725532243A344F008D13C2 /* TeXLivePackageDatabase.swift */; };
+		72765592243A864200D88BB6 /* MyPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72765591243A864200D88BB6 /* MyPersistentContainer.swift */; };
+		72765598243BBAE400D88BB6 /* MyIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72765597243BBAE400D88BB6 /* MyIndexer.swift */; };
+		728957A82444D70000302FF5 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728957A72444D70000302FF5 /* ConfigViewController.swift */; };
+		7291E533244C7586009206E3 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291E532244C7586009206E3 /* StatusViewController.swift */; };
+		7291E535244CE039009206E3 /* TeXHelpDocWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291E534244CE039009206E3 /* TeXHelpDocWindowController.swift */; };
+		72F97A172444CD6C00885333 /* TeXHelp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72F97A152444CD6C00885333 /* TeXHelp.xcdatamodeld */; };
+		72FFAE1E2AB2664A002ED9D8 /* TeXHelpUserGuide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 72FFAE1D2AB2664A002ED9D8 /* TeXHelpUserGuide.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		721E6B8324324964005B61F1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		720058462444ED5D00439AB0 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		72079C9B243CF89A006F03BC /* MyCoreSpotlightDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCoreSpotlightDelegate.swift; sourceTree = "<group>"; };
+		72111A642451E64B003444F9 /* Keyword+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keyword+CoreDataClass.swift"; sourceTree = "<group>"; };
+		72111A652451E64B003444F9 /* Keyword+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keyword+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		72111A662451E64B003444F9 /* HelpDoc+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpDoc+CoreDataClass.swift"; sourceTree = "<group>"; };
+		72111A672451E64B003444F9 /* HelpDoc+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpDoc+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		72111A7024533C1F003444F9 /* CheckRegEx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CheckRegEx.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		72111A722454B333003444F9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		72111A752454EDC5003444F9 /* MainSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchViewController.swift; sourceTree = "<group>"; };
+		721666ED24498A1B00B3706D /* TeXHelpDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeXHelpDocument.swift; sourceTree = "<group>"; };
+		721666EF24498AC400B3706D /* TeXHelpDocTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeXHelpDocTable.swift; sourceTree = "<group>"; };
+		721666F124498BB900B3706D /* TeXHelpDocOutline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeXHelpDocOutline.swift; sourceTree = "<group>"; };
+		721E6B7324324964005B61F1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		723DA4732455E0D400888136 /* SearchQuerySyntax.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = SearchQuerySyntax.rtf; path = TeXHelp/SearchQuerySyntax.rtf; sourceTree = "<group>"; };
+		7242BB4C24315496004044AC /* TeXHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeXHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7242BB4F24315496004044AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7242BB562431549A004044AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7242BB5E2431549A004044AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7242BB5F2431549A004044AC /* TeXHelp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeXHelp.entitlements; sourceTree = "<group>"; };
+		724CF83B2433EF30007E4138 /* TeXHelpData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeXHelpData.swift; sourceTree = "<group>"; };
+		724CF847243729A5007E4138 /* MyPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPDF.swift; sourceTree = "<group>"; };
+		724E83E52AA8E2A00054F9E2 /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		724E83E72AAB50400054F9E2 /* MyStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStatus.swift; sourceTree = "<group>"; };
+		724E83E92AABDC2E0054F9E2 /* DeleteDatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDatabaseViewController.swift; sourceTree = "<group>"; };
+		724E84062AB1050D0054F9E2 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		724E84082AB107D90054F9E2 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		7264BDF72445D5B30055A372 /* TeXHelpDocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeXHelpDocViewController.swift; sourceTree = "<group>"; };
+		72725532243A344F008D13C2 /* TeXLivePackageDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeXLivePackageDatabase.swift; sourceTree = "<group>"; };
+		72765591243A864200D88BB6 /* MyPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPersistentContainer.swift; sourceTree = "<group>"; };
+		72765597243BBAE400D88BB6 /* MyIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIndexer.swift; sourceTree = "<group>"; };
+		728957A72444D70000302FF5 /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		7291E532244C7586009206E3 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		7291E534244CE039009206E3 /* TeXHelpDocWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeXHelpDocWindowController.swift; sourceTree = "<group>"; };
+		72F97A162444CD6C00885333 /* TeXHelp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeXHelp.xcdatamodel; sourceTree = "<group>"; };
+		72FFAE1C2AB2341A002ED9D8 /* DeleteSpotlight.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DeleteSpotlight.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		72FFAE1D2AB2664A002ED9D8 /* TeXHelpUserGuide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = TeXHelpUserGuide.pdf; path = UserGuide/TeXHelpUserGuide.pdf; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7242BB4924315496004044AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		721666EC244989E400B3706D /* Document View */ = {
+			isa = PBXGroup;
+			children = (
+				7264BDF72445D5B30055A372 /* TeXHelpDocViewController.swift */,
+				721666F124498BB900B3706D /* TeXHelpDocOutline.swift */,
+				721666ED24498A1B00B3706D /* TeXHelpDocument.swift */,
+				721666EF24498AC400B3706D /* TeXHelpDocTable.swift */,
+				7291E534244CE039009206E3 /* TeXHelpDocWindowController.swift */,
+			);
+			path = "Document View";
+			sourceTree = "<group>";
+		};
+		721E6B7224324964005B61F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				721E6B7324324964005B61F1 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		723DA4742456203900888136 /* Indexing */ = {
+			isa = PBXGroup;
+			children = (
+				728957A72444D70000302FF5 /* ConfigViewController.swift */,
+				724E83E92AABDC2E0054F9E2 /* DeleteDatabaseViewController.swift */,
+				7291E532244C7586009206E3 /* StatusViewController.swift */,
+				72765597243BBAE400D88BB6 /* MyIndexer.swift */,
+				724CF83B2433EF30007E4138 /* TeXHelpData.swift */,
+				724CF847243729A5007E4138 /* MyPDF.swift */,
+				72725532243A344F008D13C2 /* TeXLivePackageDatabase.swift */,
+			);
+			path = Indexing;
+			sourceTree = "<group>";
+		};
+		723DA4752456205D00888136 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				72111A752454EDC5003444F9 /* MainSearchViewController.swift */,
+				72111A722454B333003444F9 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7242BB4324315496004044AC = {
+			isa = PBXGroup;
+			children = (
+				723DA4732455E0D400888136 /* SearchQuerySyntax.rtf */,
+				72FFAE1C2AB2341A002ED9D8 /* DeleteSpotlight.playground */,
+				72111A7024533C1F003444F9 /* CheckRegEx.playground */,
+				72F97A0E2444C42000885333 /* SharedClasses */,
+				7242BB4E24315496004044AC /* TeXHelp */,
+				721E6B7224324964005B61F1 /* Frameworks */,
+				7242BB4D24315496004044AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7242BB4D24315496004044AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7242BB4C24315496004044AC /* TeXHelp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7242BB4E24315496004044AC /* TeXHelp */ = {
+			isa = PBXGroup;
+			children = (
+				72FFAE1D2AB2664A002ED9D8 /* TeXHelpUserGuide.pdf */,
+				724E83E72AAB50400054F9E2 /* MyStatus.swift */,
+				7242BB4F24315496004044AC /* AppDelegate.swift */,
+				724E83E52AA8E2A00054F9E2 /* LandingPageViewController.swift */,
+				720058462444ED5D00439AB0 /* MainStoryboard.storyboard */,
+				723DA4752456205D00888136 /* Search */,
+				723DA4742456203900888136 /* Indexing */,
+				721666EC244989E400B3706D /* Document View */,
+				7242BB562431549A004044AC /* Assets.xcassets */,
+				7242BB5E2431549A004044AC /* Info.plist */,
+				724E84062AB1050D0054F9E2 /* Credits.rtf */,
+				7242BB5F2431549A004044AC /* TeXHelp.entitlements */,
+				724E84082AB107D90054F9E2 /* COPYING */,
+			);
+			path = TeXHelp;
+			sourceTree = "<group>";
+		};
+		72F97A0E2444C42000885333 /* SharedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				72111A642451E64B003444F9 /* Keyword+CoreDataClass.swift */,
+				72111A652451E64B003444F9 /* Keyword+CoreDataProperties.swift */,
+				72111A662451E64B003444F9 /* HelpDoc+CoreDataClass.swift */,
+				72111A672451E64B003444F9 /* HelpDoc+CoreDataProperties.swift */,
+				72765591243A864200D88BB6 /* MyPersistentContainer.swift */,
+				72079C9B243CF89A006F03BC /* MyCoreSpotlightDelegate.swift */,
+				72F97A152444CD6C00885333 /* TeXHelp.xcdatamodeld */,
+			);
+			path = SharedClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7242BB4B24315496004044AC /* TeXHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7242BB622431549A004044AC /* Build configuration list for PBXNativeTarget "TeXHelp" */;
+			buildPhases = (
+				7242BB4824315496004044AC /* Sources */,
+				7242BB4924315496004044AC /* Frameworks */,
+				7242BB4A24315496004044AC /* Resources */,
+				721E6B8324324964005B61F1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeXHelp;
+			productName = Blank;
+			productReference = 7242BB4C24315496004044AC /* TeXHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7242BB4424315496004044AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Neil Sims";
+				TargetAttributes = {
+					7242BB4B24315496004044AC = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 7242BB4724315496004044AC /* Build configuration list for PBXProject "TeXHelp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7242BB4324315496004044AC;
+			productRefGroup = 7242BB4D24315496004044AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7242BB4B24315496004044AC /* TeXHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7242BB4A24315496004044AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7242BB572431549A004044AC /* Assets.xcassets in Resources */,
+				724E84072AB1050D0054F9E2 /* Credits.rtf in Resources */,
+				724E84092AB107D90054F9E2 /* COPYING in Resources */,
+				720058472444ED5D00439AB0 /* MainStoryboard.storyboard in Resources */,
+				72FFAE1E2AB2664A002ED9D8 /* TeXHelpUserGuide.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7242BB4824315496004044AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721666F224498BB900B3706D /* TeXHelpDocOutline.swift in Sources */,
+				72111A6A2451E64B003444F9 /* Keyword+CoreDataProperties.swift in Sources */,
+				72765592243A864200D88BB6 /* MyPersistentContainer.swift in Sources */,
+				721666EE24498A1B00B3706D /* TeXHelpDocument.swift in Sources */,
+				721666F024498AC400B3706D /* TeXHelpDocTable.swift in Sources */,
+				72111A6C2451E64B003444F9 /* HelpDoc+CoreDataClass.swift in Sources */,
+				7291E533244C7586009206E3 /* StatusViewController.swift in Sources */,
+				728957A82444D70000302FF5 /* ConfigViewController.swift in Sources */,
+				724CF848243729A5007E4138 /* MyPDF.swift in Sources */,
+				72F97A172444CD6C00885333 /* TeXHelp.xcdatamodeld in Sources */,
+				72111A732454B333003444F9 /* SearchViewController.swift in Sources */,
+				72725533243A344F008D13C2 /* TeXLivePackageDatabase.swift in Sources */,
+				724E83EA2AABDC2E0054F9E2 /* DeleteDatabaseViewController.swift in Sources */,
+				72765598243BBAE400D88BB6 /* MyIndexer.swift in Sources */,
+				72111A6E2451E64B003444F9 /* HelpDoc+CoreDataProperties.swift in Sources */,
+				7264BDF82445D5B30055A372 /* TeXHelpDocViewController.swift in Sources */,
+				724CF83C2433EF30007E4138 /* TeXHelpData.swift in Sources */,
+				72079C9C243CF89A006F03BC /* MyCoreSpotlightDelegate.swift in Sources */,
+				724E83E82AAB50400054F9E2 /* MyStatus.swift in Sources */,
+				72111A762454EDC5003444F9 /* MainSearchViewController.swift in Sources */,
+				7291E535244CE039009206E3 /* TeXHelpDocWindowController.swift in Sources */,
+				7242BB5024315496004044AC /* AppDelegate.swift in Sources */,
+				72111A682451E64B003444F9 /* Keyword+CoreDataClass.swift in Sources */,
+				724E83E62AA8E2A00054F9E2 /* LandingPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7242BB602431549A004044AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7242BB612431549A004044AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7242BB632431549A004044AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TeXHelp/TeXHelp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 22BF9TB59Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TeXHelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TeXHelp.TeXHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7242BB642431549A004044AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TeXHelp/TeXHelp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 22BF9TB59Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TeXHelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TeXHelp.TeXHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7242BB4724315496004044AC /* Build configuration list for PBXProject "TeXHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7242BB602431549A004044AC /* Debug */,
+				7242BB612431549A004044AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7242BB622431549A004044AC /* Build configuration list for PBXNativeTarget "TeXHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7242BB632431549A004044AC /* Debug */,
+				7242BB642431549A004044AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72F97A152444CD6C00885333 /* TeXHelp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72F97A162444CD6C00885333 /* TeXHelp.xcdatamodel */,
+			);
+			currentVersion = 72F97A162444CD6C00885333 /* TeXHelp.xcdatamodel */;
+			path = TeXHelp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7242BB4424315496004044AC /* Project object */;
+}

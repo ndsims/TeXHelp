@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20540\viewh8400\viewkind0
+\pard\tx2864\tx9257\tx9683\tx11487\tx11988\tx14343\tx14845\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 With no syntax, a free text word-based search is performed on all fields.
+\f1\b \
+
+\f0\b0 Search query syntax: 	<fieldName>  <Operator>  \'91<Value>\'92[<modifier>]	
+\f1\b Operators:	Modifiers:	Combiners:
+\f0\b0 \
+		== 		w	word based	&& 	and
+\f1\b \
+fieldNames:		
+\f0\b0 !=		c	ignore case	|| 	or\
+
+\f2\i title
+\f0\i0  	filename of the pdf document	* 	wildcard			( ) 	concatenate\uc0\u8232 
+\f2\i fileURLString	
+\f0\i0 file URL of the pdf document
+\f2\i \
+details
+\f0\i0 	file details according to TeXLive	\uc0\u8232 
+\f2\i language	
+\f0\i0 file language according to TeXLive, e.g. 'en' for english
+\f2\i \
+packageName
+\f0\i0 	name of the corresponding TeXLive package
+\f2\i \
+packageShortDescription
+\f0\i0 	short description of the TeXLive package\uc0\u8232 
+\f2\i packageLongDescription
+\f0\i0 	long description of the corresponding TeXLive package\uc0\u8232 
+\f2\i commands
+\f0\i0 	commands within the pdf document - start with two backslash (\\\\) characters; or use word-based searching.	\uc0\u8232 \
+
+\f1\b Examples:	
+\f0\b0 title == 'pst*' && commands == 'cnode'w	* == 'texlive*'  	language != * }
