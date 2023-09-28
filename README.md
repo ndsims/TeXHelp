@@ -11,6 +11,6 @@ However, it can take TeXHelp a few hours to index the database when first instal
 
 # Installing
 
-Download and unzip [Zip File](UserGuide/Settings.jpg) and drag it to your Applications folder.
+Download and unzip [Zip File](TeXHelp.zip) and drag it to your Applications folder.
 
 Alternatively, compile from source using XCode
