@@ -14,3 +14,6 @@ However, it can take TeXHelp a few hours to index the database when first instal
 Download and unzip [Zip File](TeXHelp.zip) and drag it to your Applications folder.
 
 Alternatively, compile from source using XCode
+
+# File locations
+TEXHelp stores its database in the User’s Library/Containers/com.TeXHelp.TeXHelp folder. This appears as Library/Containers/TeXHelp in Finder. Within an Application Support sub- folder, an sqlite database is generated. For the default settings on TEXLive 2023, this requires about 370MB of storage. Within a Preferences subfolder, three plist files are used to save the configuration. All other files are within the TeXHelp.app.
