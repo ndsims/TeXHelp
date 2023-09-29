@@ -2,7 +2,7 @@
 
 # Installing
 
-Download and unzip [TeXHelp.zip](releases/download/v1.0/TeXHelp.zip) and drag it to your Applications folder.
+Download and unzip the .app and drag it to your Applications folder:
 <a id="raw-url" href="https://github.com/ndsims/TeXHelp/releases/download/v1.0/TeXHelp.zip">Download FILE</a>
 Alternatively, compile from source using XCode
 #https://github.com/ndsims/TeXHelp/releases/download/v1.0/TeXHelp.zip
