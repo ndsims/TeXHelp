@@ -256,8 +256,14 @@ class MyIndexer: Operation {
             completed = true
         }
         query.start()
-        while (completed == false){
+        //TODO: if this hangs then we can't pause the indexing!
+        var n = 0
+        while (completed == false && (n < 100)){
             usleep(10000)
+            n += 1
+        }
+        if n == 100 {
+            os_log("Spotlight timeout when trying to countSpotlightEntries",log: OSLog(subsystem: "com.TeXHelp.TeXHelp", category: "IndexerError"))
         }
         return nSpotlightEntries
     }

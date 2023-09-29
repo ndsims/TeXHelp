@@ -1054,8 +1054,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
             endingLineNumber = "51"
-            landmarkName = "MyPersistentContainer"
-            landmarkType = "3">
+            landmarkName = "init()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1070,8 +1070,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "init()"
-            landmarkType = "7">
+            landmarkName = "MyPersistentContainer"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1100,8 +1100,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "446"
-            endingLineNumber = "446"
+            startingLineNumber = "452"
+            endingLineNumber = "452"
             landmarkName = "createNewTHDObject(withPath:theLivePackageDatabase:indexFileInfoOnly:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1116,8 +1116,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "392"
-            endingLineNumber = "392"
+            startingLineNumber = "398"
+            endingLineNumber = "398"
             landmarkName = "main()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1132,8 +1132,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "310"
-            endingLineNumber = "310"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
             landmarkName = "main()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1150,8 +1150,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "116"
             endingLineNumber = "116"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "MyPersistentContainer"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1358,8 +1358,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "111"
             endingLineNumber = "111"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "lazyload()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1374,8 +1374,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "112"
             endingLineNumber = "112"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "lazyload()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1500,8 +1500,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "326"
-            endingLineNumber = "326"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
             landmarkName = "main()"
             landmarkType = "7">
             <Locations>
@@ -1659,8 +1659,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "442"
-            endingLineNumber = "442"
+            startingLineNumber = "448"
+            endingLineNumber = "448"
             landmarkName = "createNewTHDObject(withPath:theLivePackageDatabase:indexFileInfoOnly:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1675,8 +1675,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "396"
-            endingLineNumber = "396"
+            startingLineNumber = "402"
+            endingLineNumber = "402"
             landmarkName = "main()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1691,8 +1691,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "307"
-            endingLineNumber = "307"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
             landmarkName = "main()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1851,8 +1851,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "327"
-            endingLineNumber = "327"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
             landmarkName = "main()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2057,8 +2057,8 @@
             filePath = "TeXHelp/Indexing/MyIndexer.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "286"
-            endingLineNumber = "286"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
             landmarkName = "newReIndexSpotlight()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2154,8 +2154,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
             endingLineNumber = "105"
-            landmarkName = "MyPersistentContainer"
-            landmarkType = "3">
+            landmarkName = "lazyload()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2376,6 +2376,54 @@
             endingLineNumber = "198"
             landmarkName = "getIndexList()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8E65954-34FF-409F-80C1-D092894C5A14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TeXHelp/Search/MainSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "tableViewSelectionDidChange(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E8E65954-34FF-409F-80C1-D092894C5A14 - 2e0f51ea82cc96a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TeXHelp.MainSearchViewController.tableViewSelectionDidChange(Foundation.Notification) -&gt; ()"
+                  moduleName = "TeXHelp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/me1nds/LocalApplications/TeXHelp/TeXHelp/Search/MainSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+               <Location
+                  uuid = "E8E65954-34FF-409F-80C1-D092894C5A14 - 2e0f51ea82cc96a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TeXHelp.MainSearchViewController.tableViewSelectionDidChange(Foundation.Notification) -&gt; ()"
+                  moduleName = "TeXHelp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/me1nds/LocalApplications/TeXHelp/TeXHelp/Search/MainSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318"
+                  offsetFromSymbolStart = "1381">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

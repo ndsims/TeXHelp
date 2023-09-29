@@ -81,6 +81,7 @@
 		724E84082AB107D90054F9E2 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 		7264BDF72445D5B30055A372 /* TeXHelpDocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeXHelpDocViewController.swift; sourceTree = "<group>"; };
 		726C56E92AC5F5F400B0E471 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		726C56EB2AC7769200B0E471 /* create-dmg-commands.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "create-dmg-commands.sh"; sourceTree = "<group>"; };
 		72725532243A344F008D13C2 /* TeXLivePackageDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeXLivePackageDatabase.swift; sourceTree = "<group>"; };
 		72765591243A864200D88BB6 /* MyPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPersistentContainer.swift; sourceTree = "<group>"; };
 		72765597243BBAE400D88BB6 /* MyIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIndexer.swift; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 		7242BB4324315496004044AC = {
 			isa = PBXGroup;
 			children = (
+				726C56EB2AC7769200B0E471 /* create-dmg-commands.sh */,
 				726C56E92AC5F5F400B0E471 /* README.md */,
 				723DA4732455E0D400888136 /* SearchQuerySyntax.rtf */,
 				72FFAE1C2AB2341A002ED9D8 /* DeleteSpotlight.playground */,
@@ -429,10 +431,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TeXHelp/TeXHelp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 22BF9TB59Q;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TeXHelp/Info.plist;
@@ -458,10 +461,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TeXHelp/TeXHelp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 22BF9TB59Q;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TeXHelp/Info.plist;

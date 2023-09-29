@@ -314,7 +314,10 @@ class MainSearchViewController: NSViewController, NSTableViewDelegate, NSTableVi
         let selectedRow = searchResultsTable.selectedRow
         if selectedRow < 0 {return}
         let theSearchItem = searchItems[selectedRow]
+        os_log("Selected search item %{public}@. Expires %{public}@",log: OSLog(subsystem: "com.TeXHelp.TeXHelp", category: "Info"),theSearchItem.uniqueIdentifier,theSearchItem.expirationDate!.debugDescription)
         updateSelectedDoc(identifier: theSearchItem.uniqueIdentifier)
+//        let soon = Date(timeIntervalSinceNow: 60)
+//        theSearchItem.expirationDate = soon
         pdfView.goToFirstPage(self)
         
     }

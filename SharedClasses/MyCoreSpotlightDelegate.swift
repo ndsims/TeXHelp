@@ -66,7 +66,7 @@ class MyCoreDataCoreSpotlightDelegate: NSCoreDataCoreSpotlightDelegate {
             // most attributes are set directly because 'index in spotlight' is checked in their database/entity settings.
             let item = object as! HelpDoc
             // add displayName for formatting in spotlight search
-            attributeSet.displayName = "TeX Help: " + item.title!
+            attributeSet.displayName = "TeXHelp: " + item.title!
             attributeSet.title = String(item.title!.dropLast(4)) //strip '.pdf' off the end
             // not clear if this ever gets used
             attributeSet.contentType = "com.TeXHelp.TeXHelp"
