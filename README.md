@@ -3,7 +3,7 @@
 # Installing
 
 Download and unzip [TeXHelp.zip](TeXHelp.zip "download") and drag it to your Applications folder.
-
+<a id="raw-url" href="TeXHelp.zip">Download FILE</a>
 Alternatively, compile from source using XCode
 
 # About TeXHelp
