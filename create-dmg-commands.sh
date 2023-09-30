@@ -9,3 +9,4 @@ create-dmg \
    --window-size 660 400 \
    TeXHelp.dmg TeXHelp.app
  
+# https://daveceddia.com/manually-symbolicate-crash-log-macos-app/

@@ -256,7 +256,7 @@ class MyIndexer: Operation {
             completed = true
         }
         query.start()
-        //TODO: if this hangs then we can't pause the indexing!
+        //if this hangs then we can't pause the indexing! timeout capabilty added
         var n = 0
         while (completed == false && (n < 100)){
             usleep(10000)
@@ -330,6 +330,7 @@ class MyIndexer: Operation {
         myQ.qualityOfService = .utility
         //status.myState = .indexing
         let stripPathCount = defaultHelpRootURL.pathComponents.count // base path component length to strip off the messages
+        let stripPath = defaultHelpRootURL.pathComponents
         if docsToAdd.count > 0 { // only parse TLDB database if necessary
             status.mySummaryText = "Parsing the package database"
             status.myProgressBar = 0.0
@@ -341,8 +342,15 @@ class MyIndexer: Operation {
         }
         for docToAdd in docsToAdd {
             //autoreleasepool{
-            let msgStat = URL(fileURLWithPath: docToAdd).pathComponents[stripPathCount...]
-            
+            let fullPath = URL(fileURLWithPath: docToAdd).pathComponents
+            var msgStat:[String]=[]
+            // probably the internal helpdoc crashed here as stripPathCount was not relevant. Didn't crash in debug mode as the directory tree was longer
+            if fullPath.count > stripPathCount {
+                msgStat = Array(URL(fileURLWithPath: docToAdd).pathComponents[stripPathCount...])
+            }
+            else {
+                msgStat = URL(fileURLWithPath: docToAdd).pathComponents
+            }
             status.myStatusText = msgStat.joined(separator: "/")
             status.post()
             let indexInfoOnly =  infFilesToIndex.contains(docToAdd)
