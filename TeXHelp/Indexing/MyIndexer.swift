@@ -108,6 +108,11 @@ class MyIndexer: Operation {
                     }
                 }
             }
+            // add the built-in help document to the infFilePaths
+            if let myHelpURL  = Bundle.main.url(forResource: "TeXHelpUserGuide", withExtension:"pdf") {
+                let myHelp = myHelpURL.path
+                infFilePaths.insert(myHelp)
+            }
 
             //MARK: get all the objects currently in the database, and delete any outside the search path:
             status.mySummaryText = "Searching for existing database entries..."
@@ -193,10 +198,12 @@ class MyIndexer: Operation {
             // generate list of files to index
             var infFilesToIndex = infFilePaths.subtracting(infHelpDocsPaths).subtracting(badList)
             let conFilesToIndex = conFilePaths.subtracting(conHelpDocsPaths).subtracting(badList)
-            if let myHelpURL  = Bundle.main.url(forResource: "TeXHelpUserGuide", withExtension:"pdf") {
-                let myHelp = myHelpURL.path
-                infFilesToIndex.formUnion(Set([myHelp]))
-            }
+            // the help file should be added to the original list of files to index, so as to avoid it being deleted every time
+            // this is now fixed...
+//            if let myHelpURL  = Bundle.main.url(forResource: "TeXHelpUserGuide", withExtension:"pdf") {
+//                let myHelp = myHelpURL.path
+//                infFilesToIndex.formUnion(Set([myHelp]))
+//            }
             return (infFilesToIndex,conFilesToIndex,nDeleted,nDocsInDatabase)
         }
     
