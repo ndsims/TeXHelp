@@ -2,7 +2,7 @@
 
 Download the .dmg file:
 
-<a id="raw-url" href="https://github.com/ndsims/TeXHelp/releases/download/v1.1.4/TeXHelp.dmg">TeXHelp.dmg</a>
+<a id="raw-url" href="https://github.com/ndsims/TeXHelp/releases/download/v1.1.5/TeXHelp.dmg">TeXHelp.dmg</a>
 
 Alternatively, compile from source using XCode
 
