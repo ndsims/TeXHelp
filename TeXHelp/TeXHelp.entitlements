@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>com.apple.application-identifier</key>
-	<string>com.TeXHelp.TeXHelp</string>
+	<string>22BF9TB59Q.com.TeXHelp.TeXHelp</string>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
 	<key>com.apple.security.application-groups</key>
